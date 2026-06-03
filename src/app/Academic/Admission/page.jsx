@@ -17,12 +17,12 @@ import { usePathname } from "next/navigation";
 const admissionData = {
   btech: {
     portals: [
-      {
-        name: "SOP and Admission Form link for the Academic Year 2025 admissions",
-        image: "https://mis.nitp.ac.in/admission/images/Header.jpg",
-        link: "https://mis.nitp.ac.in/admission/Default.aspx",
-        sopLink: "https://drive.google.com/file/d/1pmD3CpyFUdmyhIEmr3YtdSqgakAUl6jA/view"
-      },
+      // {
+      //   name: "SOP and Admission Form link for the Academic Year 2025 admissions",
+      //   image: "https://mis.nitp.ac.in/admission/images/Header.jpg",
+      //   link: "https://mis.nitp.ac.in/admission/Default.aspx",
+      //   sopLink: "https://drive.google.com/file/d/1pmD3CpyFUdmyhIEmr3YtdSqgakAUl6jA/view"
+      // },
       {
         name: "JoSAA",
         image: "https://cdnbbsr.s3waas.gov.in/s313111c20aee51aeb480ecbd988cd8cc9/uploads/2022/09/2022091261.png",
@@ -37,30 +37,30 @@ const admissionData = {
       },
     ],
     notices: [
-      {
-        title: "Admission link is live (18/08/2025; 3 PM to 23/08/2025) for those who have confirmed their seat during JoSAA-2025 counselling and have not participated in CSAB special Round. Same Admission link will be used for those who have participated in CSAB special round and confirmed their seat during CSAB special round from live from 20/08/2025 to 23/08/2025.",
-        date: "2025-08-18",
-        content: " UG Admission",
-        href: ""
-      },
-      {
-        title: "Notice regarding the schedule of the Orientation programme and commencement of classes for newly admitted UG students.",
-        date: "2025-08-02",
-        content: " UG Admission",
-        href: "https://drive.google.com/file/d/1wUoxMAfqSBmz1-E7j8QvFK_Ywgcb-JoC/view?usp=sharing"
-      },
-      {
-        title: "Physical reporting notice for Admission to B.Tech./B.Arch./Dual Degree (B.Tech+M.Tech) Programmes through JoSAA/CSAB/DASA/Study in India (SII)-2025",
-        date: "2025-07-25",
-        content: "UG Admission",
-        href: "https://drive.google.com/file/d/1Nd4LmG-jk-L-H4SoV9lH2uTzww_pHM21/view?usp=sharing"
-      },
-      {
-        title: "Physical reporting schedule for admission to UG Programme through JoSAA/CSAB/DASA/SII for the Academic year 2025-26",
-        date: "2025-07-10",
-        content: "UG Admission",
-        href: "https://drive.google.com/file/d/1Evk3oz1InhdbUPRK9isTvncuXhBT7P4I/view"
-      }
+      // {
+      //   title: "Admission link is live (18/08/2025; 3 PM to 23/08/2025) for those who have confirmed their seat during JoSAA-2025 counselling and have not participated in CSAB special Round. Same Admission link will be used for those who have participated in CSAB special round and confirmed their seat during CSAB special round from live from 20/08/2025 to 23/08/2025.",
+      //   date: "2025-08-18",
+      //   content: " UG Admission",
+      //   href: ""
+      // },
+      // {
+      //   title: "Notice regarding the schedule of the Orientation programme and commencement of classes for newly admitted UG students.",
+      //   date: "2025-08-02",
+      //   content: " UG Admission",
+      //   href: "https://drive.google.com/file/d/1wUoxMAfqSBmz1-E7j8QvFK_Ywgcb-JoC/view?usp=sharing"
+      // },
+      // {
+      //   title: "Physical reporting notice for Admission to B.Tech./B.Arch./Dual Degree (B.Tech+M.Tech) Programmes through JoSAA/CSAB/DASA/Study in India (SII)-2025",
+      //   date: "2025-07-25",
+      //   content: "UG Admission",
+      //   href: "https://drive.google.com/file/d/1Nd4LmG-jk-L-H4SoV9lH2uTzww_pHM21/view?usp=sharing"
+      // },
+      // {
+      //   title: "Physical reporting schedule for admission to UG Programme through JoSAA/CSAB/DASA/SII for the Academic year 2025-26",
+      //   date: "2025-07-10",
+      //   content: "UG Admission",
+      //   href: "https://drive.google.com/file/d/1Evk3oz1InhdbUPRK9isTvncuXhBT7P4I/view"
+      // }
       // {
       //   title: "DASA 2023 Important Dates",
       //   date: "2023-05-20",
@@ -70,13 +70,13 @@ const admissionData = {
   },
   mtech: {
     portals: [
-      {
-        name: "SOP and Admission Form link for the Academic Year 2025 admissions",
-        image: "https://mis.nitp.ac.in/admission/images/Header.jpg",
-        link: "https://mis.nitp.ac.in/admission/Default.aspx",
-        sopLink: "https://drive.google.com/file/d/1pmD3CpyFUdmyhIEmr3YtdSqgakAUl6jA/view"
-      },
-      {
+      // {
+      //   name: "SOP and Admission Form link for the Academic Year 2025 admissions",
+      //   image: "https://mis.nitp.ac.in/admission/images/Header.jpg",
+      //   link: "https://mis.nitp.ac.in/admission/Default.aspx",
+      //   sopLink: "https://drive.google.com/file/d/1pmD3CpyFUdmyhIEmr3YtdSqgakAUl6jA/view"
+      // },
+       {
         name: "CCMT",
         image: "https://cdnbbsr.s3waas.gov.in/s301894d6f048493d2cacde3c579c315a3/uploads/2022/02/2022022590.png",
         link: "https://ccmt.admissions.nic.in",
@@ -85,23 +85,23 @@ const admissionData = {
     ],
     notices: [
       {
-        title: "Notice regarding the schedule of commencement of classes for newly admitted PG/MCA/Ph.D. students",
-        date: "2025-08-01",
-        content: "Notice regarding the schedule of commencement of classes for newly admitted PG/MCA/Ph.D. students",
-        href: "https://drive.google.com/file/d/1rpNmcxqzTfzoonelUydZLel6bMEZ-K_k/view"
+        title: "Uploaded Soon",
+        date: "2026-05-29",
+        content: "Uploaded Soon",
+       // href: "https://drive.google.com/file/d/1rpNmcxqzTfzoonelUydZLel6bMEZ-K_k/view"
       },
-      {
-        title: "Physical reporting notice for admission to M.Tech/M.Arch/MURP through CCMT 2025 and DRDO Sponsored candidates",
-        date: "2025-07-24",
-        content: "PG Admission",
-        href: "https://drive.google.com/file/d/1FctrG7liIhq3rQO7ViRKYFrs6PYeAjFh/view?usp=sharing"
-      },
-      {
-        title: "Physical reporting schedule for admission to PG Programme through CCMT and NIMCET for the Academic year 2025-26",
-        date: "2025-07-10",
-        content: "PG Admission",
-        href: "https://drive.google.com/file/d/1xUpA4rWNtrHlTEzRxI_AEwHPjkyIzN5z/view"
-      }
+      // {
+      //   title: "Physical reporting notice for admission to M.Tech/M.Arch/MURP through CCMT 2025 and DRDO Sponsored candidates",
+      //   date: "2025-07-24",
+      //   content: "PG Admission",
+      //   href: "https://drive.google.com/file/d/1FctrG7liIhq3rQO7ViRKYFrs6PYeAjFh/view?usp=sharing"
+      // },
+      // {
+      //   title: "Physical reporting schedule for admission to PG Programme through CCMT and NIMCET for the Academic year 2025-26",
+      //   date: "2025-07-10",
+      //   content: "PG Admission",
+      //   href: "https://drive.google.com/file/d/1xUpA4rWNtrHlTEzRxI_AEwHPjkyIzN5z/view"
+      // }
     ]
   },
 
@@ -128,57 +128,14 @@ const admissionData = {
       //   href:"https://drive.google.com/file/d/1VpDmpYqowP6kqoP1ZVyGd0gBwSqiJ9PO/view?usp=sharing"
       // },
 
-      {
-        title: "Physical Verification of Documents for PhD Admissions (January–June 2026 Semester)",
-        date: "2026-01-09",
-        content: "PhD Admission",
-        href: "https://drive.google.com/file/d/1sWvgbFCfJVRuqjrUovKGMcP_kXRlm_j1/view?usp=sharing"
-      },
-      {
-        title: "Annexure for PhD Admission",
-        date: "2026-01-09",
-        content: "PhD Admission",
-        href: "https://drive.google.com/file/d/1v6MjrIq0Io0pDHDyuBHHcVp1tk8raWTp/view?usp=sharing"
-      },
-
-
-      {
-        title: "Provisionally Selected for PhD Programme (January–June 2026)",
-        date: "2026-01-07",
-        content: "PhD Admission",
-        href: "https://drive.google.com/file/d/1tJ_UyxVt01n-rZFWnQDaFFUz3LjWGRah/view?usp=sharing"
-      },
-      {
-        title: "Interview Notice for eligible candidates after written test for PhD admission(Jan-June'2026)",
-        date: "2026-01-05",
-        content: "PhD Admission",
-        href: "https://drive.google.com/file/d/1WMsfIVytaz1RbSi8QSwmI_3ax64GvaSX/view?usp=sharing"
-      },
-      {
-        title: "Notice with the List of Eligible candidates for Written Test for PhD Admission Test for Jan-June'2026",
-        date: "2025-12-31",
-        content: "PhD Admission",
-        href: "https://drive.google.com/file/d/1tYn2c5qeRFkMc0q-lKApWaXFZoFvQ42i/view?usp=sharing"
-      },
-
-      {
-        title: "Corrigendum for Ph.D. Admission – December 2025",
-        date: "2025-12-08",
-        content: "PhD Admission",
-        href: "https://drive.google.com/file/d/1mfqkQHcFoqQ7YxUceCsWt2ToSFeKszJ6/view?usp=sharing"
-      },
-      {
-        title: "Google Form link for refund as per the above corrigendum dated 8th Dec 2025. ",
-        date: "2025-12-08",
-        content: "PhD Admission",
-        href: "https://forms.gle/RNPJ1sgieMcaVRag6"
-      },
-      {
-        title: "Applications are invited for admission to the Ph.D. programme, Academic Year 2025-26 (Even Semester: Jan–June 2026). Last date: 30th December 2025",
-        date: "2025-11-21",
-        content: "PhD Admission",
-        href: "https://drive.google.com/file/d/1LF_8jQygx-Xp4xFP51m0KCYDfHmNlMW8/view?usp=sharing"
-      }
+      
+      // {
+      //   title: "Applications are invited for admission to the Ph.D. programme, Academic Year 2026-27 (Odd Semester: July–Dec 2026). Last date: 20th July 2026",
+      //   date: "2026-06-03",
+      //   content: "PhD Admission",
+      //   href: "https://drive.google.com/file/d/1YX-EYmuH241Nae5Rx2hOPEMactJJsxzQ/view?usp=sharing"
+      // }
+      
       //     {
       //   title: "SOP for PhD admission Academic Year 2025-26.",
       //   date: "2025-06-10",
@@ -190,12 +147,12 @@ const admissionData = {
 
   mca: {
     portals: [
-      {
-        name: "SOP and Admission Form link for the Academic Year 2025 admissions",
-        image: "https://mis.nitp.ac.in/admission/images/Header.jpg",
-        link: "https://mis.nitp.ac.in/admission/Default.aspx",
-        sopLink: "https://drive.google.com/file/d/1pmD3CpyFUdmyhIEmr3YtdSqgakAUl6jA/view"
-      },
+      // {
+      //   name: "SOP and Admission Form link for the Academic Year 2025 admissions",
+      //   image: "https://mis.nitp.ac.in/admission/images/Header.jpg",
+      //   link: "https://mis.nitp.ac.in/admission/Default.aspx",
+      //   sopLink: "https://drive.google.com/file/d/1pmD3CpyFUdmyhIEmr3YtdSqgakAUl6jA/view"
+      // },
       {
         name: "NIMCET",
         image: "https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2025/03/2025031961.png",
@@ -205,23 +162,23 @@ const admissionData = {
     ],
     notices: [
       {
-        title: "Notice regarding the schedule of commencement of classes for newly admitted PG/MCA/Ph.D. students",
-        date: "2025-08-01",
-        content: "Notice regarding the schedule of commencement of classes for newly admitted PG/MCA/Ph.D. students",
-        href: "https://drive.google.com/file/d/1rpNmcxqzTfzoonelUydZLel6bMEZ-K_k/view"
+        title: "Uploaded Soon",
+        date: "2026-05-29",
+        content: "Uploaded Soon",
+        // href: "https://drive.google.com/file/d/1rpNmcxqzTfzoonelUydZLel6bMEZ-K_k/view"
       },
-      {
-        title: "Physical reporting notice for admission to MCA through  NIMCET-2025",
-        date: "2025-07-23",
-        content: "Physical reporting notice for admission to MCA through  NIMCET-2025",
-        href: "https://drive.google.com/file/d/1wlBUzmL-ZFq8-_4_uG20qtQFEp0qGUEo/view?usp=sharing"
-      },
-      {
-        title: "Physical reporting schedule for admission to PG Programme through CCMT and NIMCET for the Academic year 2025-26",
-        date: "2025-07-10",
-        content: "PG Admission",
-        href: "https://drive.google.com/file/d/1xUpA4rWNtrHlTEzRxI_AEwHPjkyIzN5z/view"
-      }
+      // {
+      //   title: "Physical reporting notice for admission to MCA through  NIMCET-2025",
+      //   date: "2025-07-23",
+      //   content: "Physical reporting notice for admission to MCA through  NIMCET-2025",
+      //   href: "https://drive.google.com/file/d/1wlBUzmL-ZFq8-_4_uG20qtQFEp0qGUEo/view?usp=sharing"
+      // },
+      // {
+      //   title: "Physical reporting schedule for admission to PG Programme through CCMT and NIMCET for the Academic year 2025-26",
+      //   date: "2025-07-10",
+      //   content: "PG Admission",
+      //   href: "https://drive.google.com/file/d/1xUpA4rWNtrHlTEzRxI_AEwHPjkyIzN5z/view"
+      // }
     ]
   },
 
